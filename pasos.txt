@@ -1,0 +1,26 @@
+Link del tutorial: https://www.youtube.com/watch?v=-bI0diefasA
+
+Pasos:
+
+Poner en un terminal
+    npm init --yes
+    npm i express express-handlebars express-session method-override mongoose passport passport-local bcryptjs connect-flash
+
+Crear carpeta src con database.js y index.js
+
+Entrar a src por terminal y escribir: 
+    mkdir config helpers models public routes views (solo linux, en windows crear cada carpeta por separado)
+
+Instalar otra dependencia
+    npm i nodemon -D  (usar luego nodemon run.. para que se autorecargue el servidor)
+
+pagina para fondo degrade de css
+    https://uigradients.com/
+
+
+Consultar datos almacenados en MongoDB por consola:
+    Abrir nuevo terminal
+    escribir 'mongo' y enter
+    escribir 'use [nombre de la DB]' y enter
+    escribir 'show collections' y enter para ver las colecciones existentes.
+    escribir 'db.[nombre de db].find().pretty()' para ver todo el contenido de esa colección
